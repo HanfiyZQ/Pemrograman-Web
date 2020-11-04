@@ -1,0 +1,184 @@
+*{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            font-family:'Lato', sans-serif;
+        }
+        h1, h2, h3, h4, h5, h6{
+            font-family:'Staatliches', cursive;
+            
+        }
+
+        .wrap{
+            background: rgba(19, 19, 19, 0.5) url(bg.jpg) no-repeat;
+            background-position: top;
+            background-size: 100%;
+            min-height: 100vh;
+            overflow: hidden;
+            background-blend-mode: overlay;
+            background-attachment: fixed;
+
+        }
+        header{
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 25px 80px;
+            background: linear-gradient(to top, transparent, rgba(0,0,0,0.6));
+        }
+        header .logo{
+            font-size: 28px;
+            font-weight: 700;
+            color: #fff;
+            float: left;
+        }
+        header .menu{
+            float: right;
+            margin-top: 5px;
+        }
+        header ul li{
+            display: inline-block;
+        }
+        header ul li a{
+            text-decoration: none;
+            font-size: 16px;
+            color: #fff;
+            margin: 0 20px;
+            font-weight: 300;
+            letter-spacing: 1px;
+        }
+
+        .content{
+            max-width: 55%;
+            padding: 200px 88px 0;
+            color: #fff;
+        }
+        .content h1{
+            font-size: 62px;
+        }
+        .content p{
+            font-size: 17px;
+            padding: 25px 0;
+            font-weight: 300;
+            letter-spacing: 1px;
+        }
+        .content .btn-group{
+            margin-top: 20px;
+        }
+        .content a{
+            display: inline-block;
+            padding: 15px;
+            text-decoration: none;
+            color: #fff;
+            border-radius: 50px;
+        }
+        .content .color1{
+            background-color: #ffc107;
+        }
+        .menu a{
+            display: inline-block;
+            padding: 10px;
+            text-decoration: none;
+            color: #fff;
+            border-radius: 50px;
+        }
+        .menu .color2{
+            background-color: #ffc107;
+        }
+        .packages{
+            padding: 0 50px;
+            margin-top: 200px;
+            letter-spacing: 0px;
+        }
+        .packages h5{
+            font-size: 18px;
+            text-align: center;
+            margin-bottom: 25px;
+            color: #fff;
+            letter-spacing: 1px;
+        }   
+        .packages hr{
+            border: none;
+            margin: auto;
+            height: 5px;
+            width: 500px;
+            background-color: #ffc107;
+        }
+        .infocards{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            padding: 40px 0 40px 0;
+        }
+        .infocards .card{
+            height: 360px;
+            width: 350px;
+            background: #ffc107;
+            box-shadow: 0 10px 22px rgba(0,0,0,0.09), 0 10px 10px rgba(0,0,0,0.09);
+        }
+        .infocards .one .cardoneimg{
+            width: 180px;
+            top: -10x;
+            right: -50px;
+        }
+        .cardbgone{
+            height: 220px;
+            width: 350px;
+            background-color: #fff;
+        }
+        .cardcontent{
+            padding: 0 20px;
+        }
+        .cardcontent h2{
+            padding-top: 20px;
+            font-weight: 600;
+        }
+        .cardcontent p{
+            font-weight: bold;
+            text-align: center;
+            padding-top: 10px;
+            line-height: 20px;
+            opacity: 0.6;
+            letter-spacing: 0px;
+        }
+        .cardcontent .cardbtn{
+            margin-top: 30px;
+        }
+        .cardcontent a{
+            display: inline-block;
+            padding: 10px;
+            text-decoration: none;
+            color: #fff;
+            border-radius: 50px;
+        }
+        .cardcontent .color2{
+            background-color: #ffc107;
+        }
+        .branch{
+            padding: 0 50px;
+            margin-top: 120px;
+            letter-spacing: 0px;
+        }
+        .branch h5{
+            font-size: 18px;
+            margin-bottom: 25px;
+            color: #fff;
+            letter-spacing: 1px;
+        }   
+        .branch hr{
+            border: none;
+            height: 5px;
+            width: 500px;
+            background-color: #ffc107;
+        }
+        .map{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
